@@ -1,11 +1,27 @@
 si no hay un jugador disponible no inicia la partida
+
+
 ![image](https://github.com/user-attachments/assets/1eb900c5-f4f7-4268-b449-8f7fe34c2893)
+
+
 una vez encuentre dos jugadores empieza la partida
+
+
 ![image](https://github.com/user-attachments/assets/e6e5076e-c326-4c71-861d-1c9eddfc425e)
+
+
 si trata de ingresar un usuario y ya hay una partida en curso te pone en modo espera 
+
+
 ![image](https://github.com/user-attachments/assets/9bfbc277-d94e-4113-9174-ef25dca5f4b2)
+
+
 una vez logras el 3 en raya global eres ganador y si en caso suceda un empate se hara el conteo de quien gano mas mini partidas y si desea reiniciar saldra el boton de reinicio
+
+
 ![image](https://github.com/user-attachments/assets/ff8076a3-3c36-4522-99e2-66120a1dfc0e)
+
+
 Reglas:
 Reglas del Juego
 Regla Básica:
