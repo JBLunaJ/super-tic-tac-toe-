@@ -54,7 +54,7 @@ class _GameScreenState extends State<GameScreen> {
         setState(() {
           gameMessage = "La partida ha comenzado. Juegas con el símbolo $playerSymbol";
           nextBoard = decodedMessage['gameState']['nextBoardIndex'];
-          isGameOver = false; // Reiniciar variables
+          isGameOver = false; // Reiniciar variablesJlunadev
         });
       } else if (decodedMessage['type'] == 'update') {
         // Actualizar el tablero
@@ -65,6 +65,7 @@ class _GameScreenState extends State<GameScreen> {
       } else if (decodedMessage['type'] == 'gameOver') {
         // Fin de la partida
         setState(() {
+      //devby:JLuna
           isGameOver = true;
           playerWon = decodedMessage['globalWinner'] == playerSymbol;
           gameMessage = playerWon
